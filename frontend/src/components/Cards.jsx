@@ -9,28 +9,6 @@ function Cards({ item }) {
   };
 
   return (
-    // <div className="mt-4 my-3">
-    //   <div className="card bg-base-100 w-80 my-3 shadow-xl hover:scale-105 duration-200">
-    //     <figure>
-    //       <img src={item.image} alt="Book" />
-    //     </figure>
-    //     <div className="card-body">
-    //       <h2 className="card-title">
-    //         {item.name}
-    //         <div className="badge badge-secondary">{item.category}</div>
-    //       </h2>
-    //       <p>{item.title}</p>
-    //       <div className="card-actions flex justify-between">
-    //         <div className="badge badge-outline">${item.price}</div>
-    //         <div className=" cursor-pointer badge badge-outline rounded-full hover:bg-pink-500 hover:text-white duration-200 p-4 ">
-    //           <button onClick={handleBuy}>Buy Now</button>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
-
     <div className="mt-4 my-3 w-full sm:w-full md:w-full lg:w-full px-2">
       <div className="card bg-base-100 shadow-xl hover:scale-105 duration-200">
         <figure>
@@ -50,7 +28,7 @@ function Cards({ item }) {
             <div className="badge badge-outline text-sm">${item.price}</div>
             <button
               onClick={handleBuy}
-              className="cursor-pointer badge badge-outline rounded-full hover:bg-pink-500 hover:text-white duration-200 px-4 py-2"
+              className="cursor-pointer badge badge-outline rounded-full hover:bg-pink-500 hover:text-white duration-200 px-4 py-4"
             >
               Buy Now
             </button>

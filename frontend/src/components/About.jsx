@@ -7,7 +7,7 @@ function About() {
     <>
      <div className="max-w-screen-2xl container mx-auto px-8 py-16 flex flex-col md:flex-row items-center gap-10">
       {/* Image Section */}
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 ">
         <img src = {book}
           alt="About us"
           className="rounded-lg shadow-lg object-cover w-full h-80 md:h-full"

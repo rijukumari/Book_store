@@ -2,13 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Contact() {
-  
   return (
     <>
       <div className="flex h-screen items-center justify-center">
         <div className=" flex mt-40 w-full items-center justify-center">
-          <form  method="dialog">
-            
+          <form method="dialog">
             <h3 className="font-bold text-2xl text-center">Contact Us</h3>
 
             <div className="mt-4 space-y-2">
@@ -20,7 +18,6 @@ function Contact() {
                 className="w-96 border rounded-md outline-none p-2"
               />
               <br />
-              
             </div>
             <div className="mt-4 space-y-2">
               <span>Email</span>
@@ -30,7 +27,6 @@ function Contact() {
                 placeholder="Enter your email"
                 className="w-96 border rounded-md outline-none p-2"
               />
-             
             </div>
             <div className="mt-4 space-y-2">
               <span>Message</span>
@@ -40,8 +36,6 @@ function Contact() {
                 className=" w-96 textarea textarea-bordered textarea-xs  max-w-lg"
               ></textarea>
               {/* sm */}
-            
-              
             </div>
 
             <div className="mt-4">
