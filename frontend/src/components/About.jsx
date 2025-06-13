@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function About() {
   return (
     <>
-     <div className="max-w-screen-2xl container mx-auto px-8 py-16 flex flex-col md:flex-row items-center gap-10">
+     <div className="max-w-screen-2xl mt-28 container mx-auto px-8 py-16 flex flex-col md:flex-row items-center gap-10">
       {/* Image Section */}
       <div className="md:w-1/2 ">
         <img src = {book}
@@ -20,12 +20,12 @@ function About() {
         <p className="text-lg mb-6">
           Welcome to our platform! We are dedicated to providing free, high-quality educational books and resources to learners everywhere.
           Our mission is to make knowledge accessible to everyone without any cost.
-        </p>
-        <p className="text-lg mb-6">
+        {/* </p> */}
+        {/* <p className="text-lg mb-6"> */}
           Whether you're a student, a professional, or a lifelong learner, our collection of free books is curated to help you explore and grow your skills.
           We believe that learning should be easy, engaging, and free of barriers.
-        </p>
-        <p className="text-lg mb-8">
+        {/* </p> */}
+        {/* <p className="text-lg mb-8"> */}
           Feel free to browse our free courses and books, and don’t hesitate to reach out if you have any questions or suggestions.
           Happy learning!
         </p>

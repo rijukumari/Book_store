@@ -27,7 +27,6 @@ function Buypage() {
         <h2 className="text-3xl font-bold mb-4">{item.name}</h2>
         <p className="text-gray-600 mb-2"> {item.title}</p>
          <div className="badge badge-secondary">{item.category}</div>
-        {/* <p className="text-lg mb-6 bg-pink-500">{item.category}</p> */}
         <p className="text-2xl font-semibold text-pink-600 mb-6">
           ₹{item.price}
         </p>

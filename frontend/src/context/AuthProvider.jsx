@@ -1,16 +1,13 @@
-
-// src/context/AuthProvider.jsx
-// import { createContext, useContext, useState } from "react";
-import React, {createContext, useContext, useState} from "react";
+import React, { createContext, useContext, useState } from "react";
 
 // Create context
- export const AuthContext = createContext();
+export const AuthContext = createContext();
 
 // Provide context to children
-export default function AuthProvider({ children }){
+export default function AuthProvider({ children }) {
   const initialAuthUser = localStorage.getItem("Users");
   const [authUser, setAuthUser] = useState(
-    initialAuthUser? JSON.parse(initialAuthUser) : undefined
+    initialAuthUser ? JSON.parse(initialAuthUser) : undefined
   );
 
   return (
@@ -18,7 +15,7 @@ export default function AuthProvider({ children }){
       {children}
     </AuthContext.Provider>
   );
-};
+}
 
 // Custom hook to use the context
-export const useAuth=()=>useContext(AuthContext)
+export const useAuth = () => useContext(AuthContext);
