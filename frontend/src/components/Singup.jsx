@@ -29,7 +29,8 @@ function Singup() {
       email:data.email,
       password:data.password
     }
- await axios.post("http://localhost:3000/user/singup",userInfo)
+//  await axios.post("http://localhost:3000/user/singup",userInfo)
+ await axios.post(`${import.meta.env.VITE_BACKEND_LINK}/user/singup`,userInfo)
   .then((res)=>{
     console.log(res.data);
     if(res.data){
